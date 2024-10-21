@@ -1,0 +1,28 @@
+/* Apply box-sizing to all elements */
+* {
+  box-sizing: border-box; 
+}
+/* Set default font size, line height, typeface, and remove body margins */
+body {
+  font-size: 16px;       
+  line-height: 1.5;      
+  font-family: Verdana, sans-serif;  
+  margin: 0;             
+}
+/* Grouped selector for header, navigation bar unordered list, and #content-wrapper */
+header, nav ul, #content-wrapper {
+  width: 90%;            
+  max-width: 1200px;     
+  margin-left: auto;     
+  margin-right: auto;     
+}
+/* Set all hyperlinks to green */
+a {
+  color: #008000;
+}
+/* Absolutely position the logo */
+#logo {
+  position: absolute;  
+  top: 0;              
+  left: 0;            
+}
